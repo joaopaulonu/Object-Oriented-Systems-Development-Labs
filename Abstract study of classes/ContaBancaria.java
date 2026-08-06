@@ -70,4 +70,25 @@ public class ContaBancaria {
         System.out.println("Saldo Total Disponível: R$ " + (this.saldo + this.limiteEspecial));
         System.out.println("----------------------------");
     }
+    // 4. Getters e Setters (Acesso controlado)
+    public String getNumeroConta() {
+        return numeroConta;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public double getLimiteEspecial() {
+        return limiteEspecial;
+    }
+
+    public void setLimiteEspecial(double limiteEspecial) {
+        this.limiteEspecial = limiteEspecial;
+    }
+}
 
